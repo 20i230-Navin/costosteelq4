@@ -1,0 +1,140 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costo</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="Cotainer">
+        <div class="login-form">
+
+            <div class="Employee">
+                <!-- <h4>Costo</h4> -->
+                <form action="#" name="Myform" onsubmit="return validtheform()" >
+
+                    <h4>Employee Name</h4>
+                    <div class="employee-input">
+                        <div class="icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input id="employeename" name="employeename" type="text" placeholder="Type your employee name">
+                    </div>
+
+                    <h4>Department</h4>
+                    <div class="department-input">
+                        <div class="icon">
+                            <i class="fas fa-chart-area"></i>
+                        </div>
+                        <input id="department"  name="department" type="text" placeholder="Type your department">
+                    </div>
+
+                    <h4>Designation</h4>
+                    <div class="Designation-input">
+                        <div class="icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <input id="design" name="Designation" type="text" placeholder="Type your designation">
+                    </div>
+
+                    <h4>Date Of Joining</h4>
+                    <div class="Doj-input">
+                        <div class="icon">
+                            <i class="fas fa-calendar"></i>
+                        </div>
+                        <input id="date" name="doj" type="date" placeholder="date of joining">
+                    </div>
+
+                    <h4>Phone Number</h4>
+                    <div class="phone-input">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <input id="phone"name="phone" type="text" placeholder="Type your phone number">
+                    </div>
+
+                    <h4>Email ID</h4>
+                    <div class="email-input">
+                        <div class="icon">
+                            <i class="fas fa-mail-bulk"></i>
+                        </div>
+                        <input id="email" name="email" type="email" placeholder="Type your email">
+                    </div>
+                    <a href="#" class="login-btn atag">Next</a>
+            </div>
+            <div class="student">
+
+                <h4>Childern Name</h4>
+                <div class="children-input">
+                    <div class="icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <input type="text" name="childrenname" placeholder="Type your childern name">
+                </div>
+
+                <h4>College Name</h4>
+                <div class="college-input">
+                    <div class="icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <input type="text" name="collegename" placeholder="Type your college name">
+                </div>
+
+                <h4>Mark</h4>
+                <div class="Mark-input">
+                    <div class="icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <input type="text" name="mark" placeholder="Type your mark">
+                </div>
+
+                <div id="rate">
+                    <label for="f-option" class="l-radio">
+                        <input type="radio" id="f_option" name="selector" tabindex="1">
+                        <span>Availed</span>
+                    </label>
+                    <label for="s-option" class="l-radio">
+                        <input type="radio" id="S_option="selector" tabindex="2">
+                        <span>Not Availed</span>
+                    </label>
+                </div>
+
+                    <h4>Semester</h4>
+                    <select name="sem" id="semno">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+
+                    <div class="checkbox">
+
+                        <input type="checkbox" id="fruit1" name="fruit_1" value="Apple">
+                        <label for="fruit1">Bonafide certificate attached</label>
+                        <input type="checkbox" id="fruit4" name="fruit_2" value="Strawberry">
+                        <label for="fruit4">Proof for marks(%) </label>
+                    </div>
+                        
+                        <div class="buttons">
+                            <a href="#" class="prev-btn atag">prev</a>
+                            <!-- <button class="login-btn" onclick="return validtheform()"> Submit </button> -->
+                            <input class="login-btn" type="submit" value="submit">
+                            <button class="clear-btn"> clear </button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
